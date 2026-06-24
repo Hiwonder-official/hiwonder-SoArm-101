@@ -1,6 +1,6 @@
 # LeRobot
 
-[English](https://github.com/Hiwodner-official/LeRobot/blob/main/README.md) | 中文
+[English](https://github.com/Hiwonder-official/hiwonder-SoArm-101/blob/main/README.md) | 中文
 
 <p align="center">
   <img src="./sources/images/lerobot.png" alt="LeRobot Logo" width="600"/>
@@ -112,16 +112,16 @@ lerobot/
 ### 使用 uv 安装（推荐）
 
 ```bash
-git clone https://github.com/Hiwodner-official/LeRobot.git
-cd LeRobot
+git clone https://github.com/Hiwonder-official/hiwonder-SoArm-101.git
+cd hiwonder-SoArm-101
 uv sync
 ```
 
 ### 使用 pip 安装
 
 ```bash
-git clone https://github.com/Hiwodner-official/LeRobot.git
-cd LeRobot
+git clone https://github.com/Hiwonder-official/hiwonder-SoArm-101.git
+cd hiwonder-SoArm-101
 pip install -e .
 ```
 
