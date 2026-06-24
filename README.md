@@ -71,8 +71,6 @@ SO-ARM101 provides a practical platform for studying learning-from-demonstration
 - **SO-ARM101** - Hiwonder high-torque robotic arm
 
 ### Motor Support
-- **Feetech STS/SMS series** - Serial bus servos
-- **Dynamixel** - High-performance servos
 - **Hiwonder HX-30HM** - 30kg magnetic-encoder servo
 
 ### Programming Interface
@@ -92,9 +90,7 @@ lerobot/
 │   ├── envs/             # Simulation environments
 │   ├── model/            # Neural network models
 │   ├── motors/           # Motor control drivers
-│   │   ├── feetech/      # Feetech STS/SMS servos
-│   │   ├── hiwonder/     # Hiwonder HX-30HM servos
-│   │   └── dynamixel/    # Dynamixel servos
+│   │   └── hiwonder/     # Hiwonder HX-30HM servos
 │   ├── policies/         # Policy implementations
 │   ├── robots/           # Robot configurations
 │   ├── scripts/          # Utility scripts
@@ -129,12 +125,6 @@ pip install -e .
 
 ```bash
 pip install -e ".[hiwonder]"
-```
-
-### Install with Feetech servo support
-
-```bash
-pip install -e ".[feetech]"
 ```
 
 ## Version Information
