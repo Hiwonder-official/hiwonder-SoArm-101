@@ -42,7 +42,7 @@ class SOFollowerConfig:
     use_degrees: bool = True
 
     # Motor model: "sts3215" (Feetech) or "hx30hm" (Hiwonder)
-    motor_model: str = "sts3215"
+    motor_model: str = "hx30hm"
 
 
 @RobotConfig.register_subclass("so101_follower")
