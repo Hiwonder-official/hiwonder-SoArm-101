@@ -1,6 +1,6 @@
 # LeRobot
 
-English | [中文](https://github.com/Hiwonder-official/hiwonder-SoArm-101/blob/main/README_cn.md)
+English | [中文](./README_cn.md)
 
 <p align="center">
   <img src="./sources/images/lerobot.png" alt="LeRobot Logo" width="600"/>
